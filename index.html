@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Responsive</title>
+
+    <head>
+        <link type="text/css" rel="stylesheet" href="lightGallery-master/dist/css/lightgallery.css" />
+
+        <!-- lightgallery plugins -->
+        <link type="text/css" rel="stylesheet" href="lightGallery-master/dist/css/lg-zoom.css" />
+        <link type="text/css" rel="stylesheet" href="lightGallery-master/dist/css/lg-thumbnail.css" />
+    
+    
+        <!-- OR -->
+    
+        <link type="text/css" rel="stylesheet" href="lightGallery-master/dist/css/lightgallery-bundle.css" />
+
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/responsive.css">
+        
+</head>
+<body>
+
+
+
+<div class="contenedor-img">
+      <div id="lightgallery">
+        <a href="images/67248b708c022a1b4a5cefda3a9afb74d27efc4d_hq.jpg" >
+            <img alt="img1" src="images/67248b708c022a1b4a5cefda3a9afb74d27efc4d_hq.jpg" />
+        </a>
+        <a href="images/67248b708c022a1b4a5cefda3a9afb74d27efc4d_hq.jpg" >
+            <img alt="img2" src="images/67248b708c022a1b4a5cefda3a9afb74d27efc4d_hq.jpg" />
+        </a>
+
+        <a href="images/Bulbasaur.webp">
+            <img alt="img2" src="images/Bulbasaur.webp" />
+        </a>
+        <a href="images/007.png" >
+            <img alt="img1" src="images/007.png" />
+        </a>
+        <a href="images/67248b708c022a1b4a5cefda3a9afb74d27efc4d_hq.jpg" >
+            <img alt="img2" src="images/67248b708c022a1b4a5cefda3a9afb74d27efc4d_hq.jpg" />
+        </a>
+
+        <a href="images/Bulbasaur.webp" >
+            <img alt="img2" src="images/Bulbasaur.webp" />
+        </a>    </div>
+    
+</div>
+
+
+
+
+<div class="parent">
+    <div class="div1"> </div>
+    <div class="div2"> </div>
+    <div class="div3"> </div>
+    <div class="div4"> </div>
+    <div class="div5"> </div>
+    <div class="div6"> </div>
+    <div class="div7"> </div>
+    <div class="div8"> </div>
+    </div>
+
+
+
+<style>
+    #lightgallery{
+        width: 100vw;
+        background-color: bisque;
+        display:inline-block;
+        text-align: center  ;
+    }
+    #lightgallery > a > img{
+        width: 100px;
+
+    }
+
+</style>
+
+
+<!-- Enlace JS principal de lightGallery -->
+<script src="lightGallery-master/dist/lightgallery.umd.js"></script>
+<script src="lightGallery-master/dist/lightgallery.min.js"></script>
+<script src="lightGallery-master/dist/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+<script src="lightGallery-master/dist/plugins/zoom/lg-zoom.umd.js"></script>
+
+<script type="text/javascript">
+    lightGallery(document.getElementById('lightgallery'), {
+        plugins: [lgZoom, lgThumbnail, ],
+        speed: 500,
+        
+        
+        
+        
+        });
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
